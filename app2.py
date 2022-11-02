@@ -4,9 +4,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, Philippe! exo push pull</p>"
+    return "<p>Hello, Philippe! exo push pull modifié</p>"
 
 if __name__ == "__main__":
 
     #changez de port ! 
-    app.run(host="0.0.0.0", port=5007) 
+    app.run(host="0.0.0.0", port=5050) 
